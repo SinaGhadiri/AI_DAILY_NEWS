@@ -1,8 +1,6 @@
 ---
 layout: home
-title: AI Daily News
+title: Welcome to My Blog
 ---
 
-Welcome to your daily source for the latest AI news!
-
-Check out the latest posts below.
+Welcome! Here you'll find the latest posts.
