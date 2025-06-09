@@ -1,10 +1,10 @@
 import feedparser
-from datetime import datetime
+from datetime import datetime, timezone
 
 feed_url = "https://news.google.com/rss/search?q=artificial+intelligence"
 feed = feedparser.parse(feed_url)
 
-today = datetime.now().strftime("%Y-%m-%d")
+today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 filename = f"_posts/{today}-ai-news.md"
 
 with open(filename, "w", encoding="utf-8") as f:
